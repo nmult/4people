@@ -28,20 +28,10 @@
   import Cart from './components/Cart';
   import {getUSD} from "./utils/currency"
   import {mapGetters, mapActions} from 'vuex'
-  import {
-    VExpansionPanels,
-    VExpansionPanel,
-    VExpansionPanelHeader,
-    VExpansionPanelContent,
-  } from 'vuetify/lib'
 
   export default {
     name:       'App',
     components: {
-      VExpansionPanels,
-      VExpansionPanel,
-      VExpansionPanelHeader,
-      VExpansionPanelContent,
       Product,
       Cart,
     },
